@@ -1,4 +1,6 @@
 # Ollama-API-Probe: Global AI Service Scanner
+# # Note: It is only suitable for Microsoft Windows 10 operating system.
+## 注意:仅适配微软视窗10操作系统
 
 ## 项目概述 / Project Overview
 Ollama-API-Probe 是一个用于检测全球公开 Ollama 服务的自动化扫描系统。该项目还包含 Gemini API 密钥探测功能。
@@ -28,6 +30,5 @@ Ollama-API-Probe is an automated scanning system designed to detect publicly acc
 
 ```bash
 pip install requests ipaddress
-# 如果是 Windows 系统还需要安装 curses 支持
 pip install windows-curses
 ```
